@@ -1,0 +1,49 @@
+{
+  "schema_version": "special_routing_profile.v2",
+  "profile_id": "can-pair",
+  "kind": "differential_pair",
+  "evidence_refs": [
+    {
+      "kind": "user_requirement",
+      "path": "PROMPT.md",
+      "section": "3. PCB, board decision 4",
+      "note": "CAN_H/CAN_L (MCP2562, 1 Mbps): coupled differential pair, equal length, default width/gap, no impedance control"
+    },
+    {
+      "kind": "fabrication_profile",
+      "path": "pcb-fabrication-profile.json",
+      "note": "diff-pair preset width 0.2 mm, gap 0.25 mm"
+    }
+  ],
+  "coupling": "continuous",
+  "trace_width_mm": 0.2,
+  "target_spacing_mm": 0.45,
+  "spacing_tolerance_mm": 0.05,
+  "max_skew_mm": 1.0,
+  "escape_radius_mm": 3.0,
+  "pair_nodes": [
+    {
+      "positive_pad_id": "J3.1",
+      "negative_pad_id": "J3.2"
+    },
+    {
+      "positive_pad_id": "D1.1",
+      "negative_pad_id": "D1.2"
+    },
+    {
+      "positive_pad_id": "U3.7",
+      "negative_pad_id": "U3.6"
+    }
+  ],
+  "pair_legs": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "minimum_track_width_mm": 0.2
+}
