@@ -6,3 +6,5 @@ _autosave-*
 *.lck
 .history/
 .DS_Store
+.kicad-auto/
+.txn/
