@@ -1,0 +1,16 @@
+(kicad_sch
+	(version 20260306)
+	(generator "kicad-auto-mcp")
+	(generator_version "0.9.0")
+	(uuid "cf62bb57-e07b-4687-99a8-1324f961c083")
+	(paper "A4")
+	(title_block
+		(title "Stamp-P4 Camera Recorder Main Board")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
