@@ -1,0 +1,11 @@
+{
+  "allow_rotation": false,
+  "decided_by": "user_specified",
+  "height_mm": 45.0,
+  "mode": "fixed",
+  "note": "PROMPT.md section 3: 60 x 45 mm rectangle, 1 mm corner radius",
+  "recorded_at": "2026-11-02T07:24:47+00:00",
+  "schema_version": "pcb_board_outline_intent.v1",
+  "tolerance_mm": 0.1,
+  "width_mm": 60.0
+}
